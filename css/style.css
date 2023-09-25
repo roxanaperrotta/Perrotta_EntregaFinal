@@ -1,0 +1,147 @@
+body{
+    background-color: cornsilk;
+    border: 50px;
+    border-color: black;
+}
+
+
+.tarjeta{
+    height: 200px;
+    width:200px;
+   align-items: center;
+
+}
+
+.tarjeta1{
+    height: 70px;
+    width:70px;
+    align-items: center;
+}
+@media (max-width: 576px) {
+    .card, .card1{
+      max-width: 50%;
+    }
+  }
+  @media (max-width: 576px) {
+    .tarjeta, .tarjeta1 {
+      max-width: 70%;
+    }
+  }
+.btn{
+background-color: black;
+color: bisque;
+
+}
+
+h1{
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-size:xx-large;
+    color: black;
+    text-align: center;
+}
+
+h2{
+color:black;
+} 
+
+h3{
+    font-family: 'Times New Roman', Times, serif;
+    font-size: large;
+    font-style: italic;
+}
+h4{
+    font-family: "times new roman";
+    font-size: x-large;
+}
+
+h5{
+    font-family: 'Times New Roman', Times, serif;
+    font-size: large;
+    font-style: italic;
+    color:cornsilk;
+}
+.card{
+    background-color:peachpuff;
+    height: 300px;
+    width: 300px;
+    align-items: center;
+}
+
+.card1{
+    background-color:black;
+    height: 250px;
+    width: 400px;
+    align-items: center;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 15px;
+    justify-content: center;
+}
+
+#encabezado {
+  background-color:peachpuff;
+  text-align: center; 
+  padding: 30px;
+
+}
+
+.logo{
+    height: 200px;
+    width: 200px;
+}
+
+p{
+font-size: larger;
+}
+footer {
+    background-color: black;
+  }
+  
+  .pfooter {
+    text-align: center;
+    font-style: italic;
+    text-decoration: wavy;
+    font-size: larger;
+    font-family: "times new roman";
+    color: cornsilk;
+    margin-top: 10px;
+  }
+  .red {
+    height: 40px;
+    width: 40px;
+    margin-top: 5px;
+    margin-bottom: 5px;
+    margin-right: 5px;
+    margin-left: 5px;
+    display: flex;
+    justify-self: right;
+    align-items: right;
+  }
+  .contenedor {
+    padding: 1rem;
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 15px;
+}
+.contenedor1{
+  display: flex;
+  align-content: center;
+  align-items: center;
+  align-self: center;
+}
+
+.imgcarrito{
+    width: 20px;
+    height: 20px;
+}
+
+.btn-remove{
+    background-color: cornsilk;
+    color:black;
+}
+.divcarrito{
+  display: flex;
+  justify-content: center;
+  align-content: center;
+}
