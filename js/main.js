@@ -1,6 +1,6 @@
 //declarar productos
 
-const productos = [
+/*const productos = [
     { id: 1, nombre: "empanada de carne", sabor:"carne", precio: 450, img: "empanadacarne.jpeg", cantidad:1 },
     { id: 2, nombre: "empanada de jamón y queso", sabor: "jamón y queso", precio: 450, img: "empanadajyq.jpeg", cantidad:1 },
     { id: 3, nombre: "empanada de verdura", sabor:"verdura", precio: 450, img: "empanadaverdura.jpeg", cantidad:1 },  
@@ -10,7 +10,7 @@ const productos = [
     { id: 7, nombre: "pizza napolitana", sabor:"muzarella, tomate y albahaca", precio: 4000, img: "pizzanapo.jpeg", cantidad:1 },
     { id: 8, nombre: "pizza cuatro quesos", sabor:"cuatro quesos", precio: 4200, img: "pizzacuatroquesos.jpeg", cantidad:1},
     { id: 9, nombre: "pizza italiana", sabor:"rúcula, jamón crudo y parmesano", precio: 5200, img: "pizzaitaliana.jpeg", cantidad:1},
-  ];
+  ];*/
 
 const carrito=[]
   
@@ -228,4 +228,5 @@ fetch("./data/data.json")
 .then(response=>response.json())
 .then(datos=>{
   console.log(datos);
+  crearHtml(datos);
 })
