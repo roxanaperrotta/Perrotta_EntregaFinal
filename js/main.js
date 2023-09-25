@@ -2,13 +2,13 @@
 
 const productos = [
     { id: 1, nombre: "empanada de carne", sabor:"carne", precio: 450, img: "empanadacarne.jpeg", cantidad:1 },
-    { id: 2, nombre: "empanada de jamón y queso", sabor: "jamón y queso", precio: 450, img: "empanadajyq.jpeg", cantidad:1 },
+    { id: 2, nombre: "empanada de jamón y queso", sabor: "jamón y queso", precio: 450, img: "empanadajyq3.jpeg", cantidad:1 },
     { id: 3, nombre: "empanada de verdura", sabor:"verdura", precio: 450, img: "empanadaverdura.jpeg", cantidad:1 },  
     { id: 4, nombre: "tarta de verdura", sabor:"verdura", precio: 3500, img: "tartaverdura.jpeg", cantidad:1},
     { id: 5, nombre: "tarta de jamón y queso", sabor:"jamón y queso", precio: 3500, img: "tartajyq.jpeg", cantidad:1 },
     { id: 6, nombre: "pizza muzarella", sabor:"muzarella", precio: 3900, img: "pizzamuzza.jpeg" },
     { id: 7, nombre: "pizza napolitana", sabor:"muzarella, tomate y albahaca", precio: 4000, img: "pizzanapo.jpeg", cantidad:1 },
-    { id: 8, nombre: "pizza cuatro quesos", sabor:"cuatro quesos", precio: 4200, img: "pizzacuatroquesos.jpeg", cantidad:1},
+    { id: 8, nombre: "pizza cuatro quesos", sabor:"cuatro quesos", precio: 4200, img: "pizzacuatroquesos1.jpeg", cantidad:1},
     { id: 9, nombre: "pizza italiana", sabor:"rúcula, jamón crudo y parmesano", precio: 5200, img: "pizzaitaliana.jpeg", cantidad:1},
   ];
 
